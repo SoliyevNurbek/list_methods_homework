@@ -6,4 +6,9 @@ def main(list01):
     Returns:
         int: return answer
     """
-    return
+    k=0
+    while list01:
+        if list01.pop()==0:
+            k+=1
+    return k
+print(main([0,1,0,0,0,1,1,0,0,1,0]))

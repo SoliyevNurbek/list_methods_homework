@@ -6,4 +6,10 @@ def main(fruits):
     Returns:
         int: return answer
     """
-    return
+    i=0
+    k=0
+    while fruits:
+        if fruits.pop()=="olma":
+            k+=1
+    return k
+print(main(["olma","uzum","olma","nok"]))
